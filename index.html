@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Minha Collection — Kurta Pajama</title>
+    <meta name="description" content="Minha Collection - Men's Kurta Pajama. Browse designs, view details and order on WhatsApp." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrap">
+        <header class="fade-in">
+            <div class="brand">
+                <div class="logo">MC</div>
+                <div>
+                    <h1>Minha Collection</h1>
+                    <p>Men's Kurta Pajama · Handcrafted · Custom Fit</p>
+                </div>
+            </div>
+            <div class="controls">
+                <input id="search" class="search" placeholder="Search kurta, color, festival..." />
+                <a id="topWhats" class="cta" target="_blank" rel="noopener noreferrer">
+                    <div style="font-size:14px">Order</div>
+                    <small>WhatsApp</small>
+                </a>
+            </div>
+        </header>
+
+        <section class="hero fade-in">
+            <div class="left">
+                <h2 class="title">Kurta Pajama Collection</h2>
+                <p class="subtitle">Traditional · Elegant · Tailored — curated kurta pajama sets for weddings, festivals and everyday wear.</p>
+                <div class="chips" id="chipContainer"></div>
+            </div>
+            <div class="hero-image" aria-hidden="true">
+                <img src="images/hero-placeholder.jpg" alt="Kurta collection hero" onerror="this.style.display='none'">
+            </div>
+        </section>
+
+        <section>
+            <div id="grid" class="grid"></div>
+            <div id="noResult" style="text-align:center;color:var(--muted);margin-top:18px;display:none">No products found.</div>
+        </section>
+
+        <footer class="fade-in">
+            © <span id="year"></span> Minha Collection · Contact on WhatsApp: +91 99999 99999
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="backdrop" class="backdrop" role="dialog" aria-modal="true">
+        <div class="modal fade-in" role="document">
+            <div class="modal-left">
+                <div id="modalImg" class="img" aria-hidden="true" style="background:#fafafa"></div>
+            </div>
+            <div class="modal-right">
+                <button id="closeModal" class="modal-close">✕</button>
+                <h3 id="modalTitle">Title</h3>
+                <p id="modalDesc" style="color:var(--muted)"></p>
+                <div style="margin-top:auto">
+                    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+                        <div style="font-size:20px;font-weight:800;color:var(--accent-dark)" id="modalPrice">₹0</div>
+                        <div style="display:flex;gap:8px">
+                            <button id="modalOrder" class="btn order">Order on WhatsApp</button>
+                            <button id="modalCopy" class="btn ghost">Copy Link</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
