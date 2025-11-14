@@ -1,6 +1,6 @@
 ﻿/* CONFIG */
 const BRAND = 'Minha Collection';
-const WHATSAPP = '919999999999'; // use without '+' for wa.me links
+const WHATSAPP = '917415281959'; // use without '+' for wa.me links
 const products = [
     { id: 1, title: 'Royal Blue Kurta', filename: 'down.jpg', price: '₹499', description: 'Lightweight cotton kurta with straight cut.', tags: ['casual', 'wedding'] },
     { id: 2, title: 'Pista green Kurta Pajama', filename: 'download.jpg', price: '₹499', description: 'Cotton kurta with tapered pajama — perfect for functions.', tags: ['casual', 'festive', 'wedding'] },
