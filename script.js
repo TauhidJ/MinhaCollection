@@ -4,16 +4,16 @@ const WHATSAPP = '919999999999'; // use without '+' for wa.me links
 const products = [
     { id: 1, title: 'Royal Blue Kurta', filename: 'down.jpg', price: '₹499', description: 'Lightweight cotton kurta with straight cut.', tags: ['casual', 'wedding'] },
     { id: 2, title: 'Pista green Kurta Pajama', filename: 'download.jpg', price: '₹499', description: 'Cotton kurta with tapered pajama — perfect for functions.', tags: ['casual', 'festive', 'wedding'] },
-    { id: 3, title: 'Classic White Kurta', filename: 'kurta3.jpg', price: '₹999', description: 'Versatile white kurta for puja and daily wear.', tags: ['casual'] },
-    { id: 4, title: 'Maroon Festive Set', filename: 'kurta4.jpg', price: '₹1,890', description: 'Rich maroon kurta with subtle thread work.', tags: ['casual', 'festive', 'wedding'] },
-    { id: 5, title: 'Navy Blue Embroidered Kurta', filename: 'kurta5.jpg', price: '₹1,750', description: 'Elegant navy blue kurta with intricate embroidery.', tags: ['casual', 'festive'] },
-    { id: 6, title: 'Beige Cotton Kurta Pajama', filename: 'kurta6.jpg', price: '₹1,200', description: 'Comfortable beige cotton kurta with matching pajama.', tags: ['casual'] },
-    { id: 7, title: 'Olive Green Kurta Set', filename: 'kurta7.jpg', price: '₹1,650', description: 'Stylish olive green kurta with modern fit.', tags: ['casual', 'festive'] },
-    { id: 8, title: 'Black Festive Kurta', filename: 'kurta8.jpg', price: '₹2,100', description: 'Classic black kurta with golden accents for festive occasions.', tags: ['wedding'] },
-    { id: 9, title: 'Cream Linen Kurta Pajama', filename: 'kurta9.jpg', price: '₹1,300', description: 'Breathable cream linen kurta with relaxed pajama.', tags: ['casual'] },
-    { id: 10, title: 'Rust Orange Kurta Set', filename: 'kurta10.jpg', price: '₹1,800', description: 'Vibrant rust orange kurta with traditional patterns.', tags: ['casual', 'festive'] },
-    { id: 11, title: 'Rust Orange Kurta Set', filename: 'kurta10.jpg', price: '₹1,800', description: 'Vibrant rust orange kurta with traditional patterns.', tags: ['casual', 'festive'] },
-    { id: 12, title: 'Rust Orange Kurta Set', filename: 'kurta10.jpg', price: '₹1,800', description: 'Vibrant rust orange kurta with traditional patterns.', tags: ['festive'] }
+    { id: 3, title: 'Classic White Kurta', filename: 'down.jpg', price: '₹999', description: 'Versatile white kurta for puja and daily wear.', tags: ['casual'] },
+    { id: 4, title: 'Maroon Festive Set', filename: 'download.jpg', price: '₹1,890', description: 'Rich maroon kurta with subtle thread work.', tags: ['casual', 'festive', 'wedding'] },
+    { id: 5, title: 'Navy Blue Embroidered Kurta', filename: 'down.jpg', price: '₹1,750', description: 'Elegant navy blue kurta with intricate embroidery.', tags: ['casual', 'festive'] },
+    { id: 6, title: 'Beige Cotton Kurta Pajama', filename: 'download.jpg', price: '₹1,200', description: 'Comfortable beige cotton kurta with matching pajama.', tags: ['casual'] },
+    { id: 7, title: 'Olive Green Kurta Set', filename: 'down.jpg', price: '₹1,650', description: 'Stylish olive green kurta with modern fit.', tags: ['casual', 'festive'] },
+    { id: 8, title: 'Black Festive Kurta', filename: 'download.jpg', price: '₹2,100', description: 'Classic black kurta with golden accents for festive occasions.', tags: ['wedding'] },
+    { id: 9, title: 'Cream Linen Kurta Pajama', filename: 'down.jpg', price: '₹1,300', description: 'Breathable cream linen kurta with relaxed pajama.', tags: ['casual'] },
+    { id: 10, title: 'Rust Orange Kurta Set', filename: 'download.jpg', price: '₹1,800', description: 'Vibrant rust orange kurta with traditional patterns.', tags: ['casual', 'festive'] },
+    { id: 11, title: 'Rust Orange Kurta Set', filename: 'down.jpg', price: '₹1,800', description: 'Vibrant rust orange kurta with traditional patterns.', tags: ['casual', 'festive'] },
+    { id: 12, title: 'Rust Orange Kurta Set', filename: 'download.jpg', price: '₹1,800', description: 'Vibrant rust orange kurta with traditional patterns.', tags: ['festive'] }
     // add more products here; ensure images are in /images folder
 ];
 
